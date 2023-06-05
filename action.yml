@@ -13,5 +13,5 @@ inputs:
     description: 'Issue/PR on which to delete comments. If not provided, comments will be deleted across the repo.'
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
